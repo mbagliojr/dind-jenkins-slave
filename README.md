@@ -9,7 +9,7 @@ Contains:
 
 * Java
 * [Docker](https://github.com/docker/docker)
-* [Docker Compose](https://github.com/docker/compose) 1.3.3
+* [Docker Compose](https://github.com/docker/compose) 1.16.1
 * [Fig](http://www.fig.sh/) 1.0.1 - this is kept for backward compatibility for some time
 * [Captain](https://github.com/harbur/captain) 0.7.0
 
