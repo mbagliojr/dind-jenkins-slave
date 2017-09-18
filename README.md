@@ -66,7 +66,7 @@ In case more parameters are needed to be passed to swarm plugin CLI use **EXTRA_
 Example:
 
 ```
-docker run --privileged --link=jenkins:master -v /var/run/docker.sock:/var/run/docker.sock -e EXTRA_PARAMS="-description 'Jenkins Slave' -executors 2" -d spiddy/dind-jenkins-slave
+docker run --privileged --link=jenkins:master -v /var/run/docker.sock:/var/run/docker.sock -e EXTRA_PARAMS="-description 'Jenkins Slave' -executors 2" -d mbagliojr/dind-jenkins-slave:1.0.1
 ```
 
 # Run A Jenkins Master + Slave
