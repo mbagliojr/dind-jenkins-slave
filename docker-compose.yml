@@ -1,11 +1,11 @@
 master:
-  image: jenkins:1.625.1
+  image: jenkins:2.60.3
   ports:
     - "8080:8080"
   volumes:
     - /opt/jenkins:/var/jenkins_home
 slave:
-  image: spiddy/dind-jenkins-slave:latest
+  image: mbagliojr/dind-jenkins-slave:1.0.1
   links:
     - master:master
   volumes:
