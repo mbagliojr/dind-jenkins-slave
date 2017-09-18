@@ -3,7 +3,7 @@ dind-jenkins-slave
 
 Docker-in-Docker Jenkins Slave
 
-[![Docker Container](http://dockeri.co/image/spiddy/dind-jenkins-slave)](https://registry.hub.docker.com/u/spiddy/dind-jenkins-slave/)
+[![Docker Container](http://dockeri.co/image/mbagliojr/dind-jenkins-slave)](https://registry.hub.docker.com/u/mbagliojr/dind-jenkins-slave/)
 
 Contains:
 
