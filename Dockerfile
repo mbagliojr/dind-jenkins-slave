@@ -11,6 +11,9 @@ RUN apt-get update -qq && \
   apt-get install -qqy oracle-java8-installer && \
   apt-get clean
 
+#Install git as well
+RUN apt-get update && apt-get install -y git
+
 RUN apt-get install -y make
 RUN wget -q https://github.com/docker/fig/releases/download/1.0.1/fig-Linux-x86_64 -O /usr/local/bin/fig && chmod +x /usr/local/bin/fig
 RUN wget -q https://github.com/docker/compose/releases/download/1.16.1/docker-compose-Linux-x86_64 -O /usr/local/bin/docker-compose && chmod +x /usr/local/bin/docker-compose
